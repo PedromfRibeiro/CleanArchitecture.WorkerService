@@ -16,6 +16,7 @@ https://devblogs.microsoft.com/nuget/introducing-central-package-management/ -->
 		<PackageVersion Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
 		<PackageVersion Include="Microsoft.Extensions.Identity.Stores" Version="8.0.10" />
 		<PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+		<PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
 	</ItemGroup>
 	<ItemGroup Label="Testing">
 		<PackageVersion Include="TUnit" Version="0.6.156" />
