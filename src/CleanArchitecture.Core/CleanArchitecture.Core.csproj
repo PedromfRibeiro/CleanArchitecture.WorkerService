@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>CleanArchitecture.Core</RootNamespace>
+		<AssemblyName>CleanArchitecture.Core</AssemblyName>
+	</PropertyGroup>
+
+</Project>

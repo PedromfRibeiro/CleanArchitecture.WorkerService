@@ -1,0 +1,23 @@
+<!-- For more info on central package management go to
+https://devblogs.microsoft.com/nuget/introducing-central-package-management/ -->
+<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+	<ItemGroup Label="EntityFramework">
+		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.10" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.10" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+		<PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+	</ItemGroup>
+	<ItemGroup Label="Microsoft">
+		<PackageVersion Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.Extensions.Identity.Stores" Version="8.0.10" />
+		<PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+	</ItemGroup>
+	<ItemGroup Label="Testing">
+		<PackageVersion Include="TUnit" Version="0.6.156" />
+	</ItemGroup>
+</Project>

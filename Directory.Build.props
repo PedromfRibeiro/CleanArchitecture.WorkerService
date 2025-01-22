@@ -1,0 +1,19 @@
+<!-- See https://aka.ms/dotnet/msbuild/customize for more details on customizing your build -->
+<Project>
+	<PropertyGroup Label="Core">
+		<TargetFramework>net8.0</TargetFramework>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+
+	<PropertyGroup Label="EntityFramework">
+		<EFProject>src/Persistence</EFProject>
+		<!--<EFStartupProject>src/CleanArchitecture.Core.csproj</EFStartupProject>-->
+	</PropertyGroup>
+</Project>

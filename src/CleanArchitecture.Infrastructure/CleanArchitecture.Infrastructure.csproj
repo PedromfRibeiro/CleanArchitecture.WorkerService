@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>CleanArchitecture.Infrastructure</RootNamespace>
+		<AssemblyName>CleanArchitecture.Infrastructure</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\CleanArchitecture.Core\CleanArchitecture.Core.csproj" />
+	</ItemGroup>
+
+</Project>
