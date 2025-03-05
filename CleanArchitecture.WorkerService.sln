@@ -15,8 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.dockerignore = .dockerignore
 		.editorconfig = .editorconfig
+		.vsconfig = .vsconfig
+		CodeMaid.config = CodeMaid.config
 		Directory.Build.props = Directory.Build.props
 		Directory.Packages.props = Directory.Packages.props
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Worker", "src\CleanArchitecture.Worker\CleanArchitecture.Worker.csproj", "{CB150230-66A4-4B5C-8FDC-454EC0A913BC}"
@@ -54,5 +57,10 @@ Global
 		{41EC49B3-9E70-47DA-9A67-337AFD53B56A} = {64458866-AA38-4E77-BDFA-E37603CE441B}
 		{CB150230-66A4-4B5C-8FDC-454EC0A913BC} = {B1699309-2F1C-4360-9074-C4FFA9843DAF}
 		{EEFBA41C-E93F-4F25-9010-06EAD6598079} = {B1699309-2F1C-4360-9074-C4FFA9843DAF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_ExcelExportMode = SingleSheet
+		RESX_PrefixTranslations = False
+		RESX_NeutralResourcesLanguage = pt-PT
 	EndGlobalSection
 EndGlobal
