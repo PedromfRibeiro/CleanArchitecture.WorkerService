@@ -1,32 +1,28 @@
 # CleanArchitecture.WorkerService
 Solution template using clean arch for building a .Net 8 Worker Service
-Criação de novo projeto utilizando a versão .net 8, versão *Long-Term Support* lançada a 14 de novembro de 2023.
+CriaÃ§Ã£o de novo projeto utilizando a versÃ£o .net 8, versÃ£o *Long-Term Support* lanÃ§ada a 14 de novembro de 2023.
 
 # Arquitetura
-Sistema monolítico com uma abordagem a arquitetura de *Clean Architecture* sendo desdobrado na área *Core* (inclui a areas de *Domain* e *Application*), *Infraestrutura* (inclui a própria área  *Infraestrutura* e a *Persistência*) e por ultimo a área de Apresentação onde é implementado a parte mais exterior serviço.
+Sistema monolÃ­tico com uma abordagem a arquitetura de *Clean Architecture* sendo desdobrado na Ã¡rea *Core* (inclui a areas de *Domain* e *Application*), *Infraestrutura* (inclui a prÃ³pria Ã¡rea  *Infraestrutura* e a *PersistÃªncia*) e por ultimo a Ã¡rea de ApresentaÃ§Ã£o onde Ã© implementado a parte mais exterior serviÃ§o.
 
 # Tarefas:
 - Sistemas de Logs
 - Sistemas de Resources
 - Sistema de falha em eventos
-- Estruturação da ORM com seeders para ambiente de desenvolvimento
-- Middleware de informação de stacktrace para ambiente desenvolvimento
-- Configuração de Gestão de *packages* e configurações de projetos centralizada
+- EstruturaÃ§Ã£o da ORM com seeders para ambiente de desenvolvimento
+- Middleware de informaÃ§Ã£o de stacktrace para ambiente desenvolvimento
+- ConfiguraÃ§Ã£o de GestÃ£o de *packages* e configuraÃ§Ãµes de projetos centralizada
 - RadditMQ:
    - Aprendizagem
-   - Configuração
-   - Interligação com o Internet Banking
-   - Criação de eventos de classe 1 e 2 (Queue 1 e 2)
-- Integração com package Mapping de entidades ( Mapperly )
+   - ConfiguraÃ§Ã£o
+   - CriaÃ§Ã£o de eventos
+- IntegraÃ§Ã£o com package Mapping de entidades ( Mapperly )
 - Testes unitarios 
    - Sistemas desenvolvidos
-   - Validação dos eventos classe 1 e 2
-   - Validação de classes
-   - Validação de mapper
-- Integrações
-   - Chamadas dinamicas com atenção a integração dos sistemas de interação (login/start interaction) 
-- Orquestração
-   - Configuração e adaptação do .Net Aspire
+   - ValidaÃ§Ã£o de classes
+   - ValidaÃ§Ã£o de mapper
+- OrquestraÃ§Ã£o
+   - ConfiguraÃ§Ã£o e adaptaÃ§Ã£o do .Net Aspire
    - Compatibilidade com docker
 - Repositorio
    - Pipelines para deploy nos diversos ambientes
